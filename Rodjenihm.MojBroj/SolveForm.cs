@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Rodjenihm.MojBroj
 {
-    public partial class MainForm : Form
+    public partial class SolveForm : Form
     {
-        public MainForm()
+        public SolveForm()
         {
             InitializeComponent();
-        }
-
-        private void BtnSolve_Click(object sender, EventArgs e)
-        {
-            var solveForm = new SolveForm();
-            solveForm.Show();
         }
     }
 }

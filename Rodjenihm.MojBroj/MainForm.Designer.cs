@@ -52,6 +52,7 @@
             this.btnSolve.TabIndex = 1;
             this.btnSolve.Text = "Reši";
             this.btnSolve.UseVisualStyleBackColor = true;
+            this.btnSolve.Click += new System.EventHandler(this.BtnSolve_Click);
             // 
             // MainForm
             // 
