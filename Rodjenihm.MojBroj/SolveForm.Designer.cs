@@ -42,6 +42,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnSolve = new System.Windows.Forms.Button();
             this.txtSolutions = new System.Windows.Forms.TextBox();
+            this.btnReset = new System.Windows.Forms.Button();
+            this.txtInfo = new System.Windows.Forms.TextBox();
             this.gbSmallNumbers.SuspendLayout();
             this.gbMediumNumbers.SuspendLayout();
             this.gbBigNumbers.SuspendLayout();
@@ -163,7 +165,7 @@
             // btnSolve
             // 
             this.btnSolve.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSolve.Location = new System.Drawing.Point(220, 220);
+            this.btnSolve.Location = new System.Drawing.Point(200, 220);
             this.btnSolve.Name = "btnSolve";
             this.btnSolve.Size = new System.Drawing.Size(75, 30);
             this.btnSolve.TabIndex = 5;
@@ -174,6 +176,7 @@
             // 
             // txtSolutions
             // 
+            this.txtSolutions.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSolutions.Location = new System.Drawing.Point(12, 350);
             this.txtSolutions.Multiline = true;
             this.txtSolutions.Name = "txtSolutions";
@@ -183,6 +186,27 @@
             this.txtSolutions.TabStop = false;
             this.txtSolutions.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // btnReset
+            // 
+            this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.Location = new System.Drawing.Point(280, 220);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(75, 30);
+            this.btnReset.TabIndex = 7;
+            this.btnReset.TabStop = false;
+            this.btnReset.Text = "Resetuj";
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.BtnReset_Click);
+            // 
+            // txtInfo
+            // 
+            this.txtInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtInfo.Location = new System.Drawing.Point(12, 306);
+            this.txtInfo.Name = "txtInfo";
+            this.txtInfo.Size = new System.Drawing.Size(360, 26);
+            this.txtInfo.TabIndex = 8;
+            this.txtInfo.TabStop = false;
+            // 
             // SolveForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -190,6 +214,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(384, 561);
+            this.Controls.Add(this.txtInfo);
+            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.txtSolutions);
             this.Controls.Add(this.btnSolve);
             this.Controls.Add(this.panel1);
@@ -228,5 +254,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnSolve;
         private System.Windows.Forms.TextBox txtSolutions;
+        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.TextBox txtInfo;
     }
 }

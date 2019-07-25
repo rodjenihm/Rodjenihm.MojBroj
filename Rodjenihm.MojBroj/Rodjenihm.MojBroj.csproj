@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Rodjenihm.Lib.Combinatorics">
+      <HintPath>..\..\Rodjenihm.Lib.Combinatorics\Rodjenihm.Lib.Combinatorics\bin\Debug\netstandard2.0\Rodjenihm.Lib.Combinatorics.dll</HintPath>
+    </Reference>
+    <Reference Include="Rodjenihm.Lib.MojBroj">
+      <HintPath>..\..\Rodjenihm.Lib.MojBroj\Rodjenihm.Lib.MojBroj\obj\Release\netstandard2.0\Rodjenihm.Lib.MojBroj.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
