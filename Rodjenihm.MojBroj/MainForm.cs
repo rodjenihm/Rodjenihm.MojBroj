@@ -22,5 +22,11 @@ namespace Rodjenihm.MojBroj
             var solveForm = new SolveForm();
             solveForm.Show();
         }
+
+        private void BtnPlay_Click(object sender, EventArgs e)
+        {
+            var playForm = new PlayForm();
+            playForm.Show();
+        }
     }
 }
